@@ -1,0 +1,19 @@
+{
+  "questions": [
+    {
+      "question": "What is the value of 7 + 3 * 2?",
+      "options": ["13", "20", "23", "17"],
+      "answer": 0
+    },
+    {
+      "question": "If a train travels 60 km in 1.5 hours, what is its average speed?",
+      "options": ["30 km/h", "40 km/h", "45 km/h", "50 km/h"],
+      "answer": 1
+    },
+    {
+      "question": "What is the next number in the sequence: 2, 4, 8, 16, ?",
+      "options": ["18", "20", "24", "32"],
+      "answer": 3
+    }
+  ]
+}

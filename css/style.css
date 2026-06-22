@@ -1,0 +1,158 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f3f5f9;
+    color: #333;
+}
+
+header,
+.dashboard-header {
+    background: #1e40af;
+    color: white;
+    padding: 1rem 1.5rem;
+}
+
+header h1,
+.dashboard-header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem 1.5rem;
+}
+
+.hero {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    margin-bottom: 2rem;
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.button,
+button {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 0.9rem 1.4rem;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background 0.2s ease;
+}
+
+.button:hover,
+button:hover {
+    background: #1d4ed8;
+}
+
+.button.secondary {
+    background: #475569;
+}
+
+.auth-page,
+.dashboard-main,
+.study-page {
+    min-height: calc(100vh - 110px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-card,
+.dashboard-card,
+.study-card {
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: min(560px, 100%);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.auth-card h2,
+.dashboard-card h2,
+.study-card h2 {
+    margin-bottom: 1.5rem;
+}
+
+.auth-card form {
+    display: grid;
+    gap: 1rem;
+}
+
+.auth-card label {
+    font-weight: 600;
+}
+
+.auth-card input {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.75rem;
+}
+
+.dashboard-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.card {
+    display: block;
+    padding: 1.3rem 1.5rem;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 1rem;
+    color: #1d4ed8;
+    text-decoration: none;
+}
+
+.question-area {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    min-height: 220px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #0f172a;
+    color: #cbd5e1;
+}
